@@ -4,7 +4,7 @@
 **Student ID:** 120212265  
 **Instructor Name:** Malak Ghabayen  
 
-This repository contains the configurations and verification outputs for enabling OSPF routing across a pre-configured network topology. Screenshots of the OSPF commands and their outputs are included in the repository. Additionally, you can find the `.pkt` file for the network topology [here](#).
+This repository contains the configurations and verification outputs for enabling OSPF routing across a pre-configured network topology. Screenshots of the OSPF commands and their outputs are included in the repository. Additionally, you can find the `.pkt` file for the network topology [here](https://github.com/Yosef-AlSabbah/OSPF-Network-Topology-Configuration/blob/main/Packet%20Tracer%20Project%20Files/After%20Changes%20-%20Network%20Topology.pkt).
 
 ---
 
