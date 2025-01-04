@@ -1,0 +1,9 @@
+Router 3:
+Router>enable
+Router#configure terminal
+Router(config)#router ospf 1
+Router(config-router)#network 10.0.24.0 0.0.0.3 area 0
+Router(config-router)#network 10.0.34.0 0.0.0.3 area 0
+Router(config-router)#network 192.168.4.0 0.0.0.255 area 0
+Router(config-router)#end
+Router#wr

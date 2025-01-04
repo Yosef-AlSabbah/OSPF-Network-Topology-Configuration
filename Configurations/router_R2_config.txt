@@ -1,0 +1,13 @@
+Router R2: Automatically Select Highest IP on Loopback Interface (BONUS)
+I used this video: https://www.youtube.com/watch?v=ZwY5PCN_C2Y
+Router>enable 
+Router#configure terminal
+Router(config)#interface Loopback0
+Router(config-if)#ip address 11.0.0.1 255.255.255.255
+Router(config-if)#exit
+Router(config)#router ospf 1
+Router(config-router)#network 11.0.0.1 0.0.0.0 area 0
+Router(config-router)#network 10.0.13.0 0.0.0.3 area 0
+Router(config-router)#network 10.0.34.0 0.0.0.3 area 0
+Router(config-router)#end
+Router#wr
